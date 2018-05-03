@@ -30,6 +30,8 @@ import com.yahoo.pulsar.broker.ServiceConfiguration;
 
 public class PulsarBrokerStarter {
 
+
+
     private static ServiceConfiguration loadConfig(String configFile) throws Exception {
         SLF4JBridgeHandler.removeHandlersForRootLogger();
         SLF4JBridgeHandler.install();
